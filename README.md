@@ -2,7 +2,7 @@
 
 A simple personal wallpaper storage + viewer. The repo holds the actual image files; the deployed page is how you browse and grab them.
 
-**[→ Open the gallery](https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/)**
+**[→ Open the gallery](https://maksacr.github.io/wallpapergallery/)**
 
 
 Hi! This is my repository of wallpapers which I've collected over the years.
@@ -19,27 +19,13 @@ Hi! This is my repository of wallpapers which I've collected over the years.
    - **◀ ▶** arrows on either side to move to the next/previous wallpaper without closing the viewer
    - Tap anywhere on the blurred background (or press `Esc`) to close
 
-## Preview
-
-**Mobile**
-
-| | | | |
-|---|---|---|---|
-| ![wall1](images/handheld/wall1.jpg) | ![wall2](images/handheld/wall2.jpg) | ![wall3](images/handheld/wall3.jpg) | ![wall4](images/handheld/wall4.jpg) |
-
-**PC**
-
-| | |
-|---|---|
-| ![wall1](images/pc/wall1.jpg) | ![wall2](images/pc/wall2.jpg) |
-| ![wall3](images/pc/wall3.jpg) | ![wall4](images/pc/wall4.jpg) |
 
 ## Adding a new wallpaper
 
 1. Drop the image file into `images/handheld/` or `images/pc/`
 2. Add an entry to the matching category in `assets/manifest.js`:
    ```js
-   { file: "wall5.jpg", name: "Whatever you want to call it" }
+   { file: "wall.jpg", name: "Whatever you want to call it" }
    ```
 3. Commit and push — GitHub Pages picks it up automatically. (Or just double-click `index.html` to preview locally — no server required.)
 
